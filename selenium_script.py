@@ -119,7 +119,7 @@ try:
                 for pdf_link in extract_pdf_links:
                     aa = pdf_link.get_attribute("onclick")
                     pdf_linksss = f"https://services.ecourts.gov.in/ecourtindia_v6/?p={aa}"
-                    print(f"      -{pdf_link}")
+                    print(f"      -{pdf_linksss}")
                 #break here to test only the first district per state
                 break
             # break to test only the first state
